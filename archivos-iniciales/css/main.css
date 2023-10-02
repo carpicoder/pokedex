@@ -44,9 +44,146 @@ button {
 }
 
 /* Aquí todo el CSS extra */
+ body {
+    min-height: 100vh;
+    background: var(--clr-gray);
+ }
 
+ header {
+    padding-block: 1rem;
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+ }
 
+ .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-inline: 1rem;
+ }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.btn-header {
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+}
+
+.btn-header:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
+}
+
+main {
+    padding: 2rem;
+}
+
+.pokemon-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.pokemon {
+    border-radius: 1rem;
+    background-color: var(--clr-white);
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .25);
+    padding-block: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.pokemon-id-back {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--clr-gray);
+    z-index: -1;
+}
+
+.pokemon-imagen {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre-contenedor {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-tipos {
+    display: flex;
+    gap: .5rem;
+    font-size: .75rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tipo {
+    padding: 0.25rem 0.5rem;
+    border-radius: 100vmax;
+}
+
+.pokemon-stats {
+    display: flex;
+    gap: 1rem;
+    font-size: .85rem;
+}
+
+.stat {
+    background-color: var(--clr-gray);
+    padding: .25rem .5rem;
+    border-radius: 100vmax;
+
+}
+
+.pokemon-id {
+    background-color: var(--clr-gray);
+    padding: 0.25rem 0.5rem;
+    border-radius: 100vmax;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.pokemon-nombre {
+    font-size: 1.4rem;
+}
+
+.pokemon-imagen img {
+    width: 100%;
+    max-width: 6rem;
+    
+}
 /* Aquí comienzan los colores de botones según tipo */
 .normal {
     background-color: var(--type-normal);
