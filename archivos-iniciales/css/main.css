@@ -55,6 +55,9 @@ button {
  }
 
  .nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -87,12 +90,26 @@ button {
 
 main {
     padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .pokemon-todos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
+}
+
+@media screen and (min-width: 470px) {
+    .pokemon-todos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .pokemon-todos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .pokemon {
