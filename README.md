@@ -14,8 +14,9 @@ El video está en YouTube, [haciendo clic aquí](https://youtu.be/EmxvMPcIy5c).
 ### Redes sociales
 - [YouTube](https://youtube.com/carpicoder)
 - [Instagram](https://instagram.com/carpicoder)
-- [Twitter](https://twitter.com/carpicoder)
+- [TikTok](https://tiktok.com/@carpicoder)
+- [X](https://twitter.com/carpicoder)
+- [Discord](https://discord.gg/wHKxGbMt4A)
+- [LinkedIn](https://linkedin.com/in/matiascoletta)
 
-### Para apoyar mi contenido, podés
-
-- [Invitarme un Cafecito](https://cafecito.com/carpicoder)
+#### Para apoyar mi contenido, podés entrar en [carpicoder.com/donaciones](https://carpicoder.com/donaciones)
